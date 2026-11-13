@@ -150,7 +150,7 @@
     "href": "setup.html#join-the-workshop-space",
     "title": "Setup",
     "section": "1. Join the workshop space",
-    "text": "1. Join the workshop space\n\nLook for an invitation email from Posit Cloud (check spam). It goes to the address I emailed you at, and it expires after 7 days.\nAccept it. If you don’t have a free Posit Cloud account yet, sign up with that same address.\nOpen the NARWC workshop project. Your own copy is made the first time you open it, so nothing you do changes anyone else’s."
+    "text": "1. Join the workshop space\n\nLook for an invitation email from Posit Cloud (check spam). It goes to the address I emailed you at, and it expires after 7 days.\nAccept it, signed in with that same address. If your Posit Cloud account uses a different one, or you don’t have an account, sign up for a free Posit Cloud account with the invited address.\nOpen the NARWC workshop project. Your own copy is made the first time you open it, so nothing you do changes anyone else’s."
   },
   {
     "objectID": "setup.html#install-posit-assistant",
