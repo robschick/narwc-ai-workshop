@@ -1,0 +1,22 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+.env
+.env.secret
+/website/_site/
+/website/.quarto/
+.posit/
+# roborev snapshots
+/.roborev/
+.Rproj.user
+
+# rendered exercise pages
+/_exercises/**/*.html
+/_exercises/**/*_files/
+
+# in-place Quarto renders (the site renders to website/_site/)
+/website/*.html
+/website/site_libs/
+/website/*-listing.json
