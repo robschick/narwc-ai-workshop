@@ -1,0 +1,246 @@
+[
+  {
+    "objectID": "workshop.html",
+    "href": "workshop.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "The workshop runs 08:30–11:30: three hours including one break. Please complete the setup instructions before the day.\n\n\n\n\n\n\nTime\n\n\n\nTitle\n\n\n\nLength\n\n\n\nDescription\n\n\n\nExercises\n\n\n\n\n\n\n\n\n08:30\n\n\nFrom a Drawing and Data to a Shiny app\n\n\n15min\n\n\nWatch an agent build an app.\n\n\n \n\n\n\n\n\n\n08:45\n\n\nTier 1 — Planning with a chat interface\n\n\n45min\n\n\nChat as a planning instrument, not a code generator.\n\n\n02_plan-with-chat, 03_stress-test\n\n\n\n\n\n\n09:30\n\n\nTier 2a — The assistant in your session\n\n\n40min\n\n\nHands-on EDA and covariates.\n\n\n04_eda-calls, 05_covariates-erddap\n\n\n\n\n\n\n10:10\n\n\n☕ Break\n\n\n10min\n\n\nCoffee, briefly.\n\n\n \n\n\n\n\n\n\n10:20\n\n\nTier 2b — Fitting the model, and checking it\n\n\n35min\n\n\nFit it, then check it yourself.\n\n\n06_lgcp-selfexcite, 07_verify-the-assistant\n\n\n\n\n\n\n10:55\n\n\nTier 3 — the agent on a real repository\n\n\n15min\n\n\nThe agent demonstration. No typing required.\n\n\n \n\n\n\n\n\n\n11:10\n\n\nLocal models and pitfalls\n\n\n15min\n\n\nLocal models, and the list.\n\n\n \n\n\n\n\n\n\n11:25\n\n\nWrap-up\n\n\n5min\n\n\nClose and feedback.\n\n\n \n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Workshop",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "workshop-08.html",
+    "href": "workshop-08.html",
+    "title": "Local models and pitfalls",
+    "section": "",
+    "text": "(7m) Local models. The same up-call prompt, answered by a frontier model (Fable) and by a small Llama model running on a laptop through Ollama, side by side. The local answer is slower and worse, and the data never left the machine. That trade is worth it when the data are embargoed, a permit restricts where they go, you have no cloud access, or there’s no budget. Posit Assistant can use a local provider, so switching is a change in a dropdown, not a different workflow. To try it yourself after the workshop, see exercise 09_ollama-local.\n(8m) Practices and pitfalls, collected.\n\nContext is a resource you spend deliberately.\nWhen the model doesn’t know a package well, give it the documentation rather than trusting its memory.\nNever accept a number you haven’t checked.\nKeep the plan in version control alongside the code.\nThe model’s confidence is unrelated to whether it’s correct.",
+    "crumbs": [
+      "Workshop",
+      "Local models and pitfalls"
+    ]
+  },
+  {
+    "objectID": "workshop-08.html#what-happens",
+    "href": "workshop-08.html#what-happens",
+    "title": "Local models and pitfalls",
+    "section": "",
+    "text": "(7m) Local models. The same up-call prompt, answered by a frontier model (Fable) and by a small Llama model running on a laptop through Ollama, side by side. The local answer is slower and worse, and the data never left the machine. That trade is worth it when the data are embargoed, a permit restricts where they go, you have no cloud access, or there’s no budget. Posit Assistant can use a local provider, so switching is a change in a dropdown, not a different workflow. To try it yourself after the workshop, see exercise 09_ollama-local.\n(8m) Practices and pitfalls, collected.\n\nContext is a resource you spend deliberately.\nWhen the model doesn’t know a package well, give it the documentation rather than trusting its memory.\nNever accept a number you haven’t checked.\nKeep the plan in version control alongside the code.\nThe model’s confidence is unrelated to whether it’s correct.",
+    "crumbs": [
+      "Workshop",
+      "Local models and pitfalls"
+    ]
+  },
+  {
+    "objectID": "workshop-05.html",
+    "href": "workshop-05.html",
+    "title": "Tier 2b — Fitting the model, and checking it",
+    "section": "",
+    "text": "(20m) Exercise 06_lgcp-selfexcite. Fit a model to the hourly call counts, with the assistant doing the typing: a Poisson GAM in mgcv, which is a discretized log-Gaussian Cox process. You decided on the model in block 2, so don’t let the assistant choose it for you. The loop you’ll practice is: state the model, let it draft, read the draft against the data dictionary, correct it in words, refit.\n(15m) Exercise 07_verify-the-assistant. Close the assistant pane and check the fit yourself. The code for each check is written for you; the questions are the exercise. Which checks could have failed, and which did? Then turn the assistant back on, ask it to critique the fit, and see whether it finds what you found.",
+    "crumbs": [
+      "Workshop",
+      "Tier 2b — Fitting the model, and checking it"
+    ]
+  },
+  {
+    "objectID": "workshop-05.html#what-happens",
+    "href": "workshop-05.html#what-happens",
+    "title": "Tier 2b — Fitting the model, and checking it",
+    "section": "",
+    "text": "(20m) Exercise 06_lgcp-selfexcite. Fit a model to the hourly call counts, with the assistant doing the typing: a Poisson GAM in mgcv, which is a discretized log-Gaussian Cox process. You decided on the model in block 2, so don’t let the assistant choose it for you. The loop you’ll practice is: state the model, let it draft, read the draft against the data dictionary, correct it in words, refit.\n(15m) Exercise 07_verify-the-assistant. Close the assistant pane and check the fit yourself. The code for each check is written for you; the questions are the exercise. Which checks could have failed, and which did? Then turn the assistant back on, ask it to critique the fit, and see whether it finds what you found.",
+    "crumbs": [
+      "Workshop",
+      "Tier 2b — Fitting the model, and checking it"
+    ]
+  },
+  {
+    "objectID": "workshop-05.html#takeaway",
+    "href": "workshop-05.html#takeaway",
+    "title": "Tier 2b — Fitting the model, and checking it",
+    "section": "Takeaway",
+    "text": "Takeaway\nThe AI speeds up the work. You remain the scientist.",
+    "crumbs": [
+      "Workshop",
+      "Tier 2b — Fitting the model, and checking it"
+    ]
+  },
+  {
+    "objectID": "workshop-04.html",
+    "href": "workshop-04.html",
+    "title": "Tier 2a — The assistant in your session",
+    "section": "",
+    "text": "(8m) What changes when it can see your session. In Positron or RStudio, Posit Assistant reads your actual data frame instead of your description of it. We’ll look at where that helps and where it quietly misleads, and remember from Tier 1: what it reads is what gets sent. To check that on your own session after the workshop, see exercise 04b_what-it-sees.\n(A note on names: Posit Assistant replaced Positron Assistant and Databot in Positron 2026.07, so tutorials you find online may use names that no longer exist.)\n(15m) Exercise 04_eda-calls. Explore the seven-day series with the assistant: call rate over time, daily patterns, gaps, detector artifacts. Ask for one plot at a time, and read every line before you run it.\n(17m) Exercise 05_covariates-erddap. Ask for code that pulls sea surface temperature and wind from ERDDAP, first cold and then with the package documentation pasted into the prompt. Compare the two.",
+    "crumbs": [
+      "Workshop",
+      "Tier 2a — The assistant in your session"
+    ]
+  },
+  {
+    "objectID": "workshop-04.html#what-happens",
+    "href": "workshop-04.html#what-happens",
+    "title": "Tier 2a — The assistant in your session",
+    "section": "",
+    "text": "(8m) What changes when it can see your session. In Positron or RStudio, Posit Assistant reads your actual data frame instead of your description of it. We’ll look at where that helps and where it quietly misleads, and remember from Tier 1: what it reads is what gets sent. To check that on your own session after the workshop, see exercise 04b_what-it-sees.\n(A note on names: Posit Assistant replaced Positron Assistant and Databot in Positron 2026.07, so tutorials you find online may use names that no longer exist.)\n(15m) Exercise 04_eda-calls. Explore the seven-day series with the assistant: call rate over time, daily patterns, gaps, detector artifacts. Ask for one plot at a time, and read every line before you run it.\n(17m) Exercise 05_covariates-erddap. Ask for code that pulls sea surface temperature and wind from ERDDAP, first cold and then with the package documentation pasted into the prompt. Compare the two.",
+    "crumbs": [
+      "Workshop",
+      "Tier 2a — The assistant in your session"
+    ]
+  },
+  {
+    "objectID": "workshop-04.html#takeaway",
+    "href": "workshop-04.html#takeaway",
+    "title": "Tier 2a — The assistant in your session",
+    "section": "Takeaway",
+    "text": "Takeaway\nKnow the flow of your data. Know how the prompt and the model can influence the output",
+    "crumbs": [
+      "Workshop",
+      "Tier 2a — The assistant in your session"
+    ]
+  },
+  {
+    "objectID": "workshop-01.html",
+    "href": "workshop-01.html",
+    "title": "From a Drawing and Data to a Shiny app",
+    "section": "",
+    "text": "We start with the destination. You’ll watch a recording of Claude Code, the agent I use every day, start from an empty folder, a photo of a dashboard sketched on paper, and the raw seven-day up-call detection file. With a short prompt, Claude reads the file, works out what the columns mean, and builds a working Shiny app that matches the sketch.\nThen we’ll review it together. The app runs and it looks right, but is it? Keep this question in mind, because it comes back all morning.\nLast, a quick welcome and a map of the morning: three ways to work with AI, from lowest to highest commitment, and what you’ll leave with.",
+    "crumbs": [
+      "Workshop",
+      "From a Drawing and Data to a Shiny app"
+    ]
+  },
+  {
+    "objectID": "workshop-01.html#what-happens",
+    "href": "workshop-01.html#what-happens",
+    "title": "From a Drawing and Data to a Shiny app",
+    "section": "",
+    "text": "We start with the destination. You’ll watch a recording of Claude Code, the agent I use every day, start from an empty folder, a photo of a dashboard sketched on paper, and the raw seven-day up-call detection file. With a short prompt, Claude reads the file, works out what the columns mean, and builds a working Shiny app that matches the sketch.\nThen we’ll review it together. The app runs and it looks right, but is it? Keep this question in mind, because it comes back all morning.\nLast, a quick welcome and a map of the morning: three ways to work with AI, from lowest to highest commitment, and what you’ll leave with.",
+    "crumbs": [
+      "Workshop",
+      "From a Drawing and Data to a Shiny app"
+    ]
+  },
+  {
+    "objectID": "workshop-01.html#before-you-arrive",
+    "href": "workshop-01.html#before-you-arrive",
+    "title": "From a Drawing and Data to a Shiny app",
+    "section": "Before you arrive",
+    "text": "Before you arrive\nPlease do the setup before the day: join the Posit Cloud space, install Posit Assistant, and sign in with the key I email you. You won’t need Claude Code yourself.",
+    "crumbs": [
+      "Workshop",
+      "From a Drawing and Data to a Shiny app"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Using AI in the Analysis of Marine Ecological Data",
+    "section": "",
+    "text": "A half-day, hands-on workshop on three complementary ways to use AI in an analytical workflow — from lowest to highest commitment — worked end to end on a single dataset: seven days of DCL/DE detections of North Atlantic right whale up-calls, from the publicly available DCLDE 2013 dataset (NOAA NCEI).\n\nTier 1 — a chat interface, for planning an analysis and reasoning about which model suits the data. Posit Assistant’s /plan mode writes the plan to a file.\nTier 2 — a coding assistant working alongside you in a live R session, in Positron or RStudio: exploratory analysis, environmental covariates from a remote API, and a Poisson GAM of the call counts (a discretized log-Gaussian Cox process), checked by hand.\nTier 3 — an agent working on a real repository, shown in a recorded demonstration: implementation, refactoring, manuscript documentation, and project tracking.\n\nYou’ll do tiers 1 and 2 yourself in Posit Assistant, in RStudio on Posit Cloud, with a workshop API key I’ll send you. Nothing to install on your own computer. Tier 3 is a recorded demonstration with Claude Code in VS Code, the agent I use every day. Posit’s own agent, pa, does the same job if you want to try it afterwards.\nWe close with a look at running a local model via Ollama, for when data privacy, cloud access or cost is a barrier.\nThroughout, we weigh best practices and pitfalls, emphasizing critical, reproducible use: the AI accelerates the work, but you remain the scientist.\nIntended for researchers with basic R familiarity. No AI experience required.\n\n\n\n\n\n\nSchedule at a glance\n\n\n\nSee the workshop schedule. Start by working through the setup instructions before the day."
+  },
+  {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "Setup",
+    "section": "",
+    "text": "The workshop runs in Posit Cloud, in RStudio in your browser. You don’t need to install R or use git. The workshop project is already set up there, with the data and packages in place. Please do steps 1 and 2 before the day; there is no setup time in the session."
+  },
+  {
+    "objectID": "setup.html#join-the-workshop-space",
+    "href": "setup.html#join-the-workshop-space",
+    "title": "Setup",
+    "section": "1. Join the workshop space",
+    "text": "1. Join the workshop space\n\nCreate a free Posit Cloud account if you don’t have one already.\nOpen the invitation link from my email and join the workshop space.\nOpen the NARWC workshop project. Your own copy is made the first time you open it, so nothing you do changes anyone else’s."
+  },
+  {
+    "objectID": "setup.html#install-posit-assistant",
+    "href": "setup.html#install-posit-assistant",
+    "title": "Setup",
+    "section": "2. Install Posit Assistant",
+    "text": "2. Install Posit Assistant\nPosit Assistant is the coding assistant we use in tiers 1 and 2.\n\nIn your copy of the project, open the assistant pane. If it says Posit Assistant Not Installed, click install.\nStop there for now. You need an API key to sign in, and I’ll email you your own the Monday before the workshop."
+  },
+  {
+    "objectID": "setup.html#when-your-key-arrives",
+    "href": "setup.html#when-your-key-arrives",
+    "title": "Setup",
+    "section": "3. When your key arrives",
+    "text": "3. When your key arrives\n\nIn the assistant pane, choose Anthropic as the provider and paste in your key. Paste it into the pane only, not into .Renviron or any file in the project.\nIn the model menu, pick the model named in the email. The pane picks a default without asking, so check it.\nRun the check in _exercises/01_setup-check/01_assistant.md. It takes two minutes.\n\nThe key is for this workshop only, so please don’t share it or use it in other projects. I’ll switch every key off afterwards.\n\n\n\n\n\n\nIf you’d rather work on your own computer\n\n\n\nThe same project is public at github.com/robschick/narwc-ai-workshop. Clone it, open narwc_workshop.Rproj in RStudio or Positron, and run _setup.R. Posit Assistant works the same way there, with the same key.\n\n\n\n\n\n\n\n\nTier 3 is watched\n\n\n\nYou don’t need an agent of your own. Tier 3 is a recorded demonstration with Claude Code in VS Code. Posit’s terminal agent, pa, does the same job if you want to try it afterwards."
+  },
+  {
+    "objectID": "workshop-02.html",
+    "href": "workshop-02.html",
+    "title": "Tier 1 — Planning with a chat interface",
+    "section": "",
+    "text": "(10m) Anatomy of a conversation. I’ll show what goes back and forth between you and the model: system, user and assistant messages. The model remembers nothing between turns, so every turn sends the whole conversation again. That’s why context is something you spend on purpose. I’ll also ask the assistant what it has seen of our data, and we’ll check its answer against its own log of what it sent.\n(15m) Exercise 02_plan-with-chat. Describe the up-call dataset to the chat: the sampling design, the seven days, the detector’s false-positive rate, the covariates you have. Ask for candidate models, not code. Then push back on the first answer.\n(10m) Exercise 03_stress-test. Ask for an ecological interpretation of a real figure, and then of a plausible-looking figure built from made-up data. In pairs, try to get a confident wrong answer out of the model.\n(10m) From conversation to plan. Posit Assistant’s /plan mode explores without changing anything, asks you clarifying questions, and writes a plan to a markdown file. Then you edit it by hand: the objective, the data, the method, and the acceptance checks. The checks are the part a model can’t write for you. Keep this file. In Tier 3 you’ll watch an agent write the same kind of plan by questioning me.",
+    "crumbs": [
+      "Workshop",
+      "Tier 1 — Planning with a chat interface"
+    ]
+  },
+  {
+    "objectID": "workshop-02.html#what-happens",
+    "href": "workshop-02.html#what-happens",
+    "title": "Tier 1 — Planning with a chat interface",
+    "section": "",
+    "text": "(10m) Anatomy of a conversation. I’ll show what goes back and forth between you and the model: system, user and assistant messages. The model remembers nothing between turns, so every turn sends the whole conversation again. That’s why context is something you spend on purpose. I’ll also ask the assistant what it has seen of our data, and we’ll check its answer against its own log of what it sent.\n(15m) Exercise 02_plan-with-chat. Describe the up-call dataset to the chat: the sampling design, the seven days, the detector’s false-positive rate, the covariates you have. Ask for candidate models, not code. Then push back on the first answer.\n(10m) Exercise 03_stress-test. Ask for an ecological interpretation of a real figure, and then of a plausible-looking figure built from made-up data. In pairs, try to get a confident wrong answer out of the model.\n(10m) From conversation to plan. Posit Assistant’s /plan mode explores without changing anything, asks you clarifying questions, and writes a plan to a markdown file. Then you edit it by hand: the objective, the data, the method, and the acceptance checks. The checks are the part a model can’t write for you. Keep this file. In Tier 3 you’ll watch an agent write the same kind of plan by questioning me.",
+    "crumbs": [
+      "Workshop",
+      "Tier 1 — Planning with a chat interface"
+    ]
+  },
+  {
+    "objectID": "workshop-02.html#takeaway",
+    "href": "workshop-02.html#takeaway",
+    "title": "Tier 1 — Planning with a chat interface",
+    "section": "Takeaway",
+    "text": "Takeaway\nA chat interface is at its best when you use it to think, and at its worst when you use it to avoid thinking.",
+    "crumbs": [
+      "Workshop",
+      "Tier 1 — Planning with a chat interface"
+    ]
+  },
+  {
+    "objectID": "workshop-07.html",
+    "href": "workshop-07.html",
+    "title": "Tier 3 — the agent on a real repository",
+    "section": "",
+    "text": "(2m) What an agent is. A tool to read files, a tool to write them, a loop, and permission to run things. That combination makes it something different from a faster autocomplete. I’ll show it with Claude Code in VS Code, which is what I use every day. Posit’s own agent, pa, does the same job.\n(11m) The agent at work, narrated. A recorded run on a real project repository. The agent starts from the raw data and writes its plan by questioning me, with the same headings as the plan you wrote in Tier 1, then builds from it. We’ll pause along the way to look at what it did, what I accepted, and what I sent back. The repository it built is public, so you can read it afterwards: narw-upcall-workflow. If you want to try this yourself later, start with _exercises/08_agent-followalong/.\n(2m) The bill. The tokens, time and cost of what you just watched.",
+    "crumbs": [
+      "Workshop",
+      "Tier 3 — the agent on a real repository"
+    ]
+  },
+  {
+    "objectID": "workshop-07.html#what-happens",
+    "href": "workshop-07.html#what-happens",
+    "title": "Tier 3 — the agent on a real repository",
+    "section": "",
+    "text": "(2m) What an agent is. A tool to read files, a tool to write them, a loop, and permission to run things. That combination makes it something different from a faster autocomplete. I’ll show it with Claude Code in VS Code, which is what I use every day. Posit’s own agent, pa, does the same job.\n(11m) The agent at work, narrated. A recorded run on a real project repository. The agent starts from the raw data and writes its plan by questioning me, with the same headings as the plan you wrote in Tier 1, then builds from it. We’ll pause along the way to look at what it did, what I accepted, and what I sent back. The repository it built is public, so you can read it afterwards: narw-upcall-workflow. If you want to try this yourself later, start with _exercises/08_agent-followalong/.\n(2m) The bill. The tokens, time and cost of what you just watched.",
+    "crumbs": [
+      "Workshop",
+      "Tier 3 — the agent on a real repository"
+    ]
+  },
+  {
+    "objectID": "workshop-09.html",
+    "href": "workshop-09.html",
+    "title": "Wrap-up",
+    "section": "",
+    "text": "Where this is going next.\nIf you want to go further: ellmer calls the same models from your own R code, so a model can sit inside a script, a Shiny app or a pipeline. It means handling an API key in your own code, which is why we don’t use it today.\nWhere the materials live and how to keep going.\nA short feedback survey.",
+    "crumbs": [
+      "Workshop",
+      "Wrap-up"
+    ]
+  },
+  {
+    "objectID": "workshop-09.html#what-happens",
+    "href": "workshop-09.html#what-happens",
+    "title": "Wrap-up",
+    "section": "",
+    "text": "Where this is going next.\nIf you want to go further: ellmer calls the same models from your own R code, so a model can sit inside a script, a Shiny app or a pipeline. It means handling an API key in your own code, which is why we don’t use it today.\nWhere the materials live and how to keep going.\nA short feedback survey.",
+    "crumbs": [
+      "Workshop",
+      "Wrap-up"
+    ]
+  }
+]
