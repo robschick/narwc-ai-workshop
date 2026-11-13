@@ -143,7 +143,7 @@
     "href": "setup.html",
     "title": "Setup",
     "section": "",
-    "text": "The workshop runs in Posit Cloud, in RStudio in your browser. You don’t need to install R or use git. The workshop project is already set up there, with the data and packages in place. Please do steps 1 and 2 before the day; there is no setup time in the session."
+    "text": "The workshop runs in Posit Cloud, in RStudio in your browser. You don’t need to install R or use git. The workshop project is already set up there, with the data and packages in place. Please do all three steps before the day: steps 1 and 2 now, and step 3 when your key arrives on Monday. There is no setup time in the session."
   },
   {
     "objectID": "setup.html#join-the-workshop-space",
@@ -164,7 +164,7 @@
     "href": "setup.html#when-your-key-arrives",
     "title": "Setup",
     "section": "3. When your key arrives",
-    "text": "3. When your key arrives\n\nIn the assistant pane, choose Anthropic as the provider and paste in your key. Paste it into the pane only, not into .Renviron or any file in the project.\nIn the model menu, pick the model named in the email. The pane picks a default without asking, so check it.\nRun the check in _exercises/01_setup-check/01_assistant.md. It takes two minutes.\n\nThe key is for this workshop only, so please don’t share it or use it in other projects. I’ll switch every key off afterwards.\n\n\n\n\n\n\nIf you’d rather work on your own computer\n\n\n\nThe same project is public at github.com/robschick/narwc-ai-workshop. Clone it, open narwc_workshop.Rproj in RStudio or Positron, and run _setup.R. Posit Assistant works the same way there, with the same key.\n\n\n\n\n\n\n\n\nTier 3 is watched\n\n\n\nYou don’t need an agent of your own. Tier 3 is a recorded demonstration with Claude Code in VS Code. Posit’s terminal agent, pa, does the same job if you want to try it afterwards."
+    "text": "3. When your key arrives\n\nIn the assistant pane, choose Anthropic as the provider and paste in your key. Paste it into the pane only, not into .Renviron or any file in the project.\nIn the model menu, pick the model named in the email. The pane picks a default without asking, so check it.\nRun the check in _exercises/01_setup-check/01_assistant.md. It takes two minutes.\n\nThe key is for this workshop only, so please don’t share it or use it in other projects. I’ll switch every key off afterwards.\n\n\n\n\n\n\nIf you’d rather work on your own computer\n\n\n\nThe same project is public at github.com/robschick/narwc-ai-workshop. Clone it, open narwc_workshop.Rproj in RStudio or Positron, and run _setup.R. Posit Assistant works the same way there, with the same key. If you already have an ANTHROPIC_API_KEY in .Renviron, the pane may use it without asking, so comment it out and restart R before you paste in the workshop key.\n\n\n\n\n\n\n\n\nTier 3 is watched\n\n\n\nYou don’t need an agent of your own. Tier 3 is a recorded demonstration with Claude Code in VS Code. Posit’s terminal agent, pa, does the same job if you want to try it afterwards."
   },
   {
     "objectID": "workshop-02.html",
